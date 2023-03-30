@@ -12,7 +12,7 @@ import useUserValue from '../../hooks/useUserValue';
 
 const Home = () => {
 
-  const { value, user, loading , handleName, handleEmail, handleDate, handleDress, handlePhone, handlePassword } = useUserValue();
+  const { value, user, loading, text, handleName, handleEmail, handleDate, handleDress, handlePhone, handlePassword } = useUserValue();
 
   if (loading) {
     return <div>Loading...</div>;
@@ -25,7 +25,7 @@ const Home = () => {
       <Container className="randomUser text-center">
         <div className="background-cotainer"></div>
         <img src={user[0].picture.large} className="random-user-img"/>
-        <p className="Welcome-text">Hi, My name is</p>
+        <p className="Welcome-text">{text}</p>
         <p className="user-name">{value}</p>
 
         <div className="user-buttons">
