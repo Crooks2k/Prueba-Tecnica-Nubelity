@@ -60,6 +60,8 @@ npm run dev
 
 ### Tecnologias Aplicadas 📦
 
+React:
+
  "axios": "^1.3.4",<br>
   "bootstrap": "^5.2.3"<br>
   "react": "^18.2.0"<br>
