@@ -9,7 +9,6 @@ const UserNationality = () => {
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(true);
   const { nationality } = useParams();
-  console.log(nationality)
 
   useEffect(() => {
     const fetchUsersNationality = async () => {
