@@ -14,7 +14,6 @@ const Home = () => {
 
   const { value, user, loading , handleName, handleEmail, handleDate, handleDress, handlePhone, handlePassword } = useUserValue();
 
-  console.log(user[0])
   if (loading) {
     return <div>Loading...</div>;
   }

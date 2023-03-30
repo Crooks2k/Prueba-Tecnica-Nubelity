@@ -1,0 +1,40 @@
+
+.randomUserNationality{
+    margin-top: 6rem;
+}
+.background-cotainer{
+    background-color: rgba(236, 236, 236, 0.603);
+    max-width: 400px;
+    margin: auto;
+    height: 80px;
+    border-bottom: 4px solid rgb(214, 214, 214);
+}
+.random-user-img{
+    border-radius: 100%;
+    margin-top: -3.6rem;
+    border: 4px solid rgb(214, 214, 214);
+}
+.Welcome-text{
+    color:rgb(172, 172, 172);
+    margin-top: 0.3rem;
+    font-size: 18px;
+}
+.user-name{
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+    font-size: 22px;
+    margin-top: -1.3rem;
+}
+.user-buttons{
+    display: inline-flex;
+    margin-top: -1rem;
+    font-size: 25px;
+    gap: 1.4rem;
+    color:rgb(172, 172, 172);
+}
+.user-buttons svg:hover{
+    transition: all .3s;
+    transform: scale(1.3);
+    border-top: 2px solid rgb(194, 233, 130);
+    color: rgb(194, 233, 130)
+}

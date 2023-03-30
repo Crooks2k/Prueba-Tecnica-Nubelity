@@ -5,6 +5,10 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const handleRedirect = (e) =>{
+        e.preventDefault();
+        window.open("https://github.com/Crooks2k", '_blank');
+    }
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
@@ -17,7 +21,7 @@ const Header = () => {
                     </Nav>
                     <Nav>
                         <Nav.Link>Prueba Tecnica</Nav.Link>
-                        <Nav.Link eventKey={2}>
+                        <Nav.Link eventKey={2} onClick={handleRedirect}>
                             @Crooks2k | On GitHub
                         </Nav.Link>
                     </Nav>

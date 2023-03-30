@@ -1,0 +1,14 @@
+.randomUserNationalitys{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 6rem;
+    justify-content: center;
+}
+.randomUserNationalitys button{
+    border-radius: 15px;
+    padding: 0.5rem 3rem;
+}
+.randomUserNationalitys button:hover{
+    transform: scale(1.1);
+}
